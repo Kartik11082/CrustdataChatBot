@@ -94,7 +94,7 @@ const ChatBot = () => {
                         type="text"
                         value={userInput}
                         onChange={(e) => setUserInput(e.target.value)}
-                        placeholder="Type your message..."
+                        placeholder="How to search for people..."
                         aria-label="Message input"
                         required
                     />
